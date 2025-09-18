@@ -1,0 +1,187 @@
+/* ملف CSS بسيط لصفحات تسجيل الدخول والتسجيل */
+
+/* تنسيق الجسم العام */
+body {
+    font-family: Arial, sans-serif;
+   /* background: #2c3e50;*/
+    background-image: url("../image-background/Image_background.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+    color: #bdc3c7;
+    margin: 1px;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+/* تنسيق الحاوية الرئيسية */
+.login-container h2{
+    color: #FFD700; 
+}
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+  /* background:  #34495e;*/
+   background-color: rgba(0,0,0,0.6);
+    
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  /*  border:  solid  #a2441f;*/
+    
+}
+
+
+/* تنسيق العنوان */
+.login-title {
+    text-align: center;
+    color: #e67e22;
+    background-color: rgba(50,50,50,0.8); 
+    margin-bottom: 30px;
+    font-size: 24px;
+      
+}
+
+/* تنسيق مجموعة الحقول */
+.form-group {
+    margin-bottom: 20px;
+    
+}
+
+/* تنسيق التسميات */
+.form-label {
+    display: block;
+    margin-bottom: 5px;
+   /* color: #bdc3c7;*/
+    color: aliceblue;
+    font-weight: bold;
+}
+
+/* تنسيق حقول الإدخال */
+.form-input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid  #7f8c8d;
+  /*  background-color: #2c3e50;*/
+ /*  background-color: gainsboro;*/
+    background-color: rgba(255,255,255,0.1); 
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+
+/* تنسيق حقول الإدخال عند التركيز */
+.form-input:focus {
+    border-color: #fff ;
+    outline: none;
+}
+
+/* تنسيق مربع الاختيار */
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.checkbox-group input {
+    margin-left: 8px;
+ 
+}
+.checkbox-group input[type="checkbox"]{
+    accent-color: #FFD700;
+}
+
+/* تنسيق الأزرار */
+.btn {
+    width: 100%;
+    padding: 12px;
+  /*  background: linear-gradient(135deg, #8B4513 0%, #D2691E 100%);*/
+  background-color: rgba(50,50,50,0.8); 
+    color: #FFD700;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.btn:hover {
+   color: #FFD700;
+}
+
+/* تنسيق الروابط */
+.form-links {
+    
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form-links a {
+    flex: 1;
+    max-width: 300px;
+    color: #FFD700; 
+    text-decoration: none;
+    margin: 0 10px;
+    border-radius: 5px;
+   /* background-color: rgba(0,0,0,0.6);*/
+}
+.form-links span{
+    color: white;
+}
+
+
+/*
+#news{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background: #2c3e50;
+    color: #FFD700;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+#news1{
+    background: #2c3e50;
+    font-size: 20px;
+    color: #FFD700;
+}
+*/
+.form-links a:hover {
+    text-decoration: underline;
+}
+
+/* تنسيق رسائل الخطأ */
+.error-message {
+    color: #e53e3e;
+    font-size: 14px;
+    margin-top: 5px;
+    display: none;
+}
+
+/* تنسيق الحقول الخاطئة */
+.form-input.error {
+    border-color: #e53e3e;
+}
+
+/* تنسيق متجاوب للشاشات الصغيرة */
+@media (max-width: 480px) {
+    .login-container {
+        margin: 20px auto;
+        padding: 20px;
+    }
+    
+    body {
+        padding: 10px;
+    }
+}
+

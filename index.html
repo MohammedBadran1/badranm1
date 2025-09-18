@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع التاريخ والحضارات العربية</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar ">
+            <div class="nav-container">
+                <div class="logo">
+                    <h2>️🏛 التاريخ والحضارات العربية</h2>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link active">الرئيسية</a></li>
+                    <li><a href="yemen.html" class="nav-link">اليمن</a></li>
+                    <li><a href="syria.html" class="nav-link">سوريا</a></li>
+                    <li><a href="iraq.html" class="nav-link">العراق</a></li>
+                    <li><a href="egypt.html" class="nav-link">مصر</a></li>
+                    <li><a href="contact.html" class="nav-link">تواصل معنا</a></li>
+                <li><a href="simple-login.html" class="nav-link"> تسجيل الدخول </a></li>
+                </ul>
+                
+                <div class="hamburger" onclick="OpenMenu()">       <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">رحلة عبر التاريخ العربي العريق</h1>
+            <p class="hero-subtitle">اكتشف أعظم الحضارات التي نشأت في الأراضي العربية وأثرت على مجرى التاريخ الإنساني</p>
+            <a href="#civilizations" class="cta-button">ابدأ الاستكشاف</a>
+        </div>
+
+    </section>
+
+    <!-- Civilizations Section -->
+    <section id="civilizations" class="civilizations">
+        <div class="container">
+            <h2 class="section-title">الحضارات العربية العظيمة</h2>
+            <p class="section-subtitle">تعرف على أربع من أعظم الحضارات التي ازدهرت في الأراضي العربية</p>
+            
+            <div class="civilizations-grid">
+                <!-- Yemen -->
+                <div class="civilization-card">
+                    <div class="card-image">
+                        <img src="images/yemen1.webp" alt="حضارات اليمن القديمة">
+                        <div class="card-overlay">
+                            <h3>حضارات اليمن القديمة</h3>
+                            <p>مملكة سبأ وحمير ومعين</p>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h4>اليمن - أرض الملكة بلقيس</h4>
+                        <p>موطن مملكة سبأ العظيمة والملكة بلقيس، حيث ازدهرت التجارة والحضارة لآلاف السنين.</p>
+                        <div class="card-features">
+                            <span class="feature">مملكة سبأ</span>
+                            <span class="feature">مملكة حمير</span>
+                            <span class="feature">سد مأرب</span>
+                        </div>
+                        <a href="yemen.html" class="card-button">اكتشف المزيد</a>
+                    </div>
+                </div>
+
+                <!-- Syria -->
+                <div class="civilization-card">
+                    <div class="card-image">
+                        <img src="images/Syria2.jpg" alt="حضارات سوريا القديمة">
+                        <div class="card-overlay">
+                            <h3>حضارات بلاد الشام</h3>
+                            <p>الآراميون والكنعانيون</p>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h4>سوريا - مهد الحضارات</h4>
+                        <p>أرض الآراميين والكنعانيين، حيث تلاقت الحضارات وازدهرت الثقافة والتجارة.</p>
+                        <div class="card-features">
+                            <span class="feature">الآراميون</span>
+                            <span class="feature">تدمر</span>
+                            <span class="feature">دمشق القديمة</span>
+                        </div>
+                        <a href="syria.html" class="card-button">اكتشف المزيد</a>
+                    </div>
+                </div>
+
+                <!-- Iraq -->
+                <div class="civilization-card">
+                    <div class="card-image">
+                        <img src="images/Iraq1.jpg" alt="حضارات العراق القديمة">
+                        <div class="card-overlay">
+                            <h3>حضارات بلاد الرافدين</h3>
+                            <p>السومريون والبابليون والآشوريون</p>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h4>العراق - مهد الحضارة الإنسانية</h4>
+                        <p>أرض السومريين والبابليين، حيث وُلدت الكتابة والقوانين وأولى المدن في التاريخ.</p>
+                        <div class="card-features">
+                            <span class="feature">الكتابة المسمارية</span>
+                            <span class="feature">قانون حمورابي</span>
+                            <span class="feature">حدائق بابل</span>
+                        </div>
+                        <a href="iraq.html" class="card-button">اكتشف المزيد</a>
+                    </div>
+                </div>
+
+                <!-- Egypt -->
+                <div class="civilization-card">
+                    <div class="card-image">
+                        <img src="images/Egypt1.jpg" alt="حضارات مصر القديمة">
+                        <div class="card-overlay">
+                            <h3>الحضارة الفرعونية</h3>
+                            <p>أرض الأهرامات والفراعنة</p>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h4>مصر - هبة النيل</h4>
+                        <p>أرض الفراعنة والأهرامات، حيث ازدهرت واحدة من أعظم الحضارات في التاريخ الإنساني.</p>
+                        <div class="card-features">
+                            <span class="feature">الأهرامات</span>
+                            <span class="feature">الهيروغليفية</span>
+                            <span class="feature">التحنيط</span>
+                        </div>
+                        <a href="egypt.html" class="card-button">اكتشف المزيد</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section class="timeline">
+        <div class="container">
+            <h2 class="section-title">الخط الزمني للحضارات العربية</h2>
+            <div class="timeline-container">
+                <div class="timeline-item">
+                    <div class="timeline-date">3500 ق.م</div>
+                    <div class="timeline-content">
+                        <h4>بداية الحضارة السومرية</h4>
+                        <p>أولى الحضارات المكتوبة في بلاد الرافدين</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">3100 ق.م</div>
+                    <div class="timeline-content">
+                        <h4>توحيد مصر القديمة</h4>
+                        <p>بداية عصر الأسرات الفرعونية</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">1200 ق.م</div>
+                    <div class="timeline-content">
+                        <h4>ازدهار مملكة سبأ</h4>
+                        <p>العصر الذهبي للحضارة اليمنية</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">1000 ق.م</div>
+                    <div class="timeline-content">
+                        <h4>الممالك الآرامية</h4>
+                        <p>ازدهار الحضارة في بلاد الشام</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">4</div>
+                    <div class="stat-label">حضارات عظيمة</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">5000+</div>
+                    <div class="stat-label">سنة من التاريخ</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">∞</div>
+                    <div class="stat-label">إرث خالد</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">100+</div>
+                    <div class="stat-label">موقع أثري</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>موقع التاريخ والحضارات العربية</h3>
+                    <p>رحلة استكشافية عبر أعظم الحضارات في التاريخ العربي والإنساني</p>
+                </div>
+                <div class="footer-section">
+                    <h4>الحضارات</h4>
+                    <ul>
+                        <li><a href="yemen.html">اليمن</a></li>
+                        <li><a href="syria.html">سوريا</a></li>
+                        <li><a href="iraq.html">العراق</a></li>
+                        <li><a href="egypt.html">مصر</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>روابط مفيدة</h4>
+                    <ul>
+                        <li><a href="index.html">الرئيسية</a></li>
+                        <li><a href="contact.html">تواصل معنا</a></li>
+                        <li><a href="simple-login.html" > تسجيل الدخول</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 موقع التاريخ والحضارات العربية. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
