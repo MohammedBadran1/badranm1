@@ -129,19 +129,14 @@ body {
     border-radius: 50px;
     font-weight: 600;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 15px rgba(139, 69, 19, 0.3);
+    
+
+    
 }
 
 .cta-button:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(139, 69, 19, 0.4);
-}
-
-.hero-image img {
-    width: 100%;
-    border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-}
+    }
 
 /* Civilizations Section */
 .civilizations {
@@ -168,7 +163,6 @@ body {
 
 .civilizations-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
     margin-top: 3rem;
 }
@@ -177,7 +171,6 @@ body {
     background: rgba(0,0,0,0.7); /* خلفية داكنة شفافة للبطاقات */
     border-radius: 15px;
     overflow: hidden;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.5);
     transition: all 0.3s ease;
 }
 
@@ -185,7 +178,6 @@ body {
 .civilization-card:active
 {
     transform: translateY(-10px);
-    box-shadow: 0 15px 40px rgba(0,0,0,0.7);
     background-color: rgba(50,50,50,0.8); /* لون أغمق عند التفاعل */
 }
 
@@ -266,8 +258,7 @@ body {
 
 .card-button:hover {
     transform: translateY(-2px);
-    box-shadow: 0 4px 15px rgba(139, 69, 19, 0.3);
-}
+    }
 
 /* Timeline Section */
 .timeline {
@@ -325,7 +316,7 @@ body {
     padding: 1.5rem;
     border-radius: 10px;
     flex: 1;
-    backdrop-filter: blur(5px); /* تقليل تأثير التمويه قليلاً */
+     
 }
 
 .timeline-content h4 {
@@ -343,7 +334,6 @@ body {
 
 .stats-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 2rem;
     text-align: center;
 }
@@ -352,7 +342,6 @@ body {
     background: rgba(0,0,0,0.7); /* خلفية داكنة شفافة للعناصر الإحصائية */
     padding: 2rem;
     border-radius: 15px;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.5);
     transition: transform 0.3s ease;
 }
 
@@ -381,7 +370,6 @@ body {
 
 .footer-content {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 2rem;
     margin-bottom: 2rem;
 }
@@ -529,7 +517,6 @@ body {
     padding: 2rem;
     border-radius: 15px;
     text-align: center;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.5);
     transition: transform 0.3s ease;
 }
 
@@ -553,7 +540,6 @@ body {
     background: rgba(0,0,0,0.7); /* خلفية داكنة شفافة للنموذج */
     padding: 3rem;
     border-radius: 15px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
     max-width: 600px;
     margin: 0 auto;
     
